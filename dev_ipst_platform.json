@@ -1,0 +1,36 @@
+{
+  "authorization": {
+    "absolute-path": "https://front.ipst-platform.ipst-dev.com",
+    "navigate-to-authorization": "/",
+    "params": [
+      "project"
+    ]
+  },
+  "main-platform": {
+    "absolute-path": "https://front.ipst-platform.ipst-dev.com",
+    "navigate-to-authorization": "/",
+    "params-authorization": ["token"],
+    "report-path": "/report",
+    "employees-path": "/employees/1",
+    "projects-path": "/projects/1",
+    "customers-path": "/customers/1"
+  },
+  "activities-platform": {
+    "absolute-path": "-",
+    "navigate-to-authorization": "/passport.ipst",
+    "params-authorization": ["token"],
+    "main-path": "/"
+  },
+  "task-tracker-platform": {
+    "absolute-path": "-",
+    "navigate-to-authorization": "/passport.ipst",
+    "params-authorization": ["token"],
+    "main-path": "/"
+  },
+  "my-account-platform": {
+    "absolute-path": "-",
+    "navigate-to-authorization": "/passport.ipst",
+    "params-authorization": ["token"],
+    "main-path": "/"
+  }
+}
